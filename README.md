@@ -161,24 +161,238 @@
             </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
+
+CSS
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+.asos{
+    font-family: 'Roboto' sans-serif;
+    background: #EEEEEE;
+}
+.qism1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #FFFFFF;
+    margin-top: 10px;
+}
+.qism1 h1{
+    font-size: 24px;
+}
+.qism1 ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    list-style: none;
+    color: #011F3A;
+}
+.qism1 li{
+    padding: 10px 10px;
+}
+.qism1 li a{
+    text-decoration: none;
+    color: #011F3A;
+}
+.qism1 .log a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #011F3A;
+}
+.log  img{
+    margin-left: 25px;
+}
+.left{
+    margin-left: 50px;
+}
+main{
+    height: 750px;
+    align-items: center;
+    background: #F2AE4D;
+}
+main h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #011F3A;
+    padding-top: 148px;
+}
+main h3{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+    color: #011F3A;
+}
+main img{
+    margin-left: 700px;
+    margin-top: -348px;
+}
+button{
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    background: #3D5675;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.logo,  .one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.logo h3{
+    margin-top: 20px;
+}
+.qism2{
+    padding-left: 80px;
+    height: 1162px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #EEEEEE;
+}
+.qism2 h1{
+    padding-top: 40px;
+}
+.ctn{
+    margin-left: 900px;
+    margin-top: -35px;
+    margin-bottom: 40px;
+}
+.a{
+    display: flex;
+    flex-direction: row;
+}
+.b{
+    display: flex;
+    flex-direction: row;
+}
+.sss{
+    text-align: left;
+    height: 432px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 0px;
+}
+.sss h3, h4{
+    margin-left: 30px;
+} 
+.sss h5{
+    margin-left: 280px;
+    margin-top: -50px;
+}
+.sss h.a1{
+    margin-left: 280px;
+    margin-top: -10px;
+}
+.d{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-left: 400px;
+    color: #A1A1A1;
+}
+.d button{
+    border: none;
+    background-color: white;
+    color: #3D5675;
+    margin-top: -10px;
+}
+.qism3  {
+    margin-left: 80px;
+    width: 1200px;
+    height: 774px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background-color: #72BDA3;
+    box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
+    border-radius: 0px;
+}
+.qism3 .e{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+.qism3 h1{
+    padding-top: 88px;
+    margin-left: 215px;
+    margin-bottom: 46px;
+}
+.two h3{
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #011F3A;
+    justify-content: space-around;
+}
+.qism3 button{
+    margin-left: 505px;
+}
+.two h5{
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #3D5675;
+    margin-bottom: 74px;
+}
+.qism4 h1{
+    margin-top: 88px;
+    margin-left: 162px;
+}
+.qism4 .g{
+    display: flex;
+    flex-direction: row;
+    margin-top: 82px;
+    margin-left: 62px;
+    padding: 20px 20px ;
+    justify-content: space-evenly;
+}
+.tree {
+    margin-bottom: 54px;
+}
+.k{
+    width: 1200px;
+    margin-left: 80px;
+    margin-bottom: 24px;
+    text-align: center;
+    height: 610px;
+    background: #FFCA3A;
+    box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
+    margin-bottom: 148px;
+}
+.k{
+    padding-top: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.k h3{
+    color: #011F3A;
+}
+.k h5{
+    color: #3D5675;
+} 
+.k button{
+    color: #3D5675;
+    background: #FFFFFF;
+    border-radius: 44px;
+}
